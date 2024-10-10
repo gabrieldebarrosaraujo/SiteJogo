@@ -110,6 +110,10 @@ h2 {
     margin-bottom: 10px;
 }
 
+.game-details {
+    text-align: center; /* Centraliza o texto */
+}
+
 .footer {
     background-color: #171a21;
     text-align: center;
