@@ -2,74 +2,76 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Papafigo Survivor</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Papa Figo Survivor</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link para o arquivo CSS -->
 </head>
 <body>
-    <header>
-        <div class="header-top">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Steam_Logo.png" alt="Steam Logo" class="logo">
-            <div class="steam-buttons">
-                <button class="steam-btn blue">Abrir no aplicativo</button>
-                <button class="steam-btn green">Instale o Steam</button>
+
+    <div class="header">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Steam_Logo.png" alt="Logo Steam">
+        <div class="menu">
+            <a href="#">Loja</a>
+            <a href="#">Comunidade</a>
+            <a href="#">Sobre</a>
+            <a href="#">Suporte</a>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <div class="trailer">
+            <iframe src="https://www.youtube.com/embed/8Hshpbozs58" frameborder="0" allowfullscreen></iframe>
+        </div>
+        
+        <div class="game-info">
+            <!-- Adicionando o logo2.png acima do resumo -->
+            <div class="game-logo">
+                <img src="logo2.png" alt="Logo do jogo">
+            </div>
+
+            <!-- Seção do Resumo -->
+            <div class="game-description">
+                <h2>Resumo:</h2>
+                <p>Criaturas do folclore brasileiro estão atacando a cidade de Aldirá! Somente Fabiano, um caçador de monstros, e sua parceira Vitoria podem salvar a cidade e seus habitantes e desvendar os mistérios por trás dos acontecimentos.</p>
             </div>
         </div>
-        <nav>
-            <ul>
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Loja</a></li>
-                <li><a href="#">Comunidade</a></li>
-                <li><a href="#">Suporte</a></li>
-            </ul>
-        </nav>
-    </header>
+    </div>
 
-    <section class="main-content">
-        <div class="breadcrumb">
-            <p>Todos os jogos > Ação > Papafigo Survivor</p>
-        </div>
+    <!-- Seção do Preço -->
+    <div class="price-section">
+        <button class="buy-button">
+            COMPRAR R$199,00
+        </button>
+    </div>
 
-        <div class="game-overview">
-            <h1>Papafigo Survivor</h1>
-            <div class="game-layout">
-                <div class="game-media">
-                    <iframe width="100%" height="500" src="https://www.youtube.com/embed/8Hshpbozs58" 
-                        title="Trailer Papafigo Survivor" frameborder="0" allowfullscreen></iframe>
-                    <div class="game-thumbnails">
-                    </div>
-                </div>
+    <!-- Nova seção da História completa -->
+    <div class="full-history">
+        <h2>História:</h2>
+        <p>O ano é 1920, na cidade de Andirá, interior nordestino, onde uma seca rotineira é interrompida por notícias
+            de um tesouro escondido, espalhadas por um estranho homem pálido. A cidade entra em frenesi ao encontrar uma
+            misteriosa esfera de bronze. Estranhos acontecimentos começam, e criaturas folclóricas passam a assombrar os cidadãos.
+            Fabiano e Vitória, místicos e caçadores de artefatos, chegam à cidade para investigar e defender a população.</p>
+        <img src="globo.png" alt="Globo do jogo">
+    </div>
 
-                <div class="game-card">
-                    <img src="logo2.png" alt="Logo Papafigo Survivor" class="game-logo">
-                    <button class="steam-btn green price-btn">
-                    
-                        R$199,00
-                    </button>
-                </div>
-            </div>
-            
-            <div class="game-info">
-                <h2>História</h2>
-                <p>
-                    O ano é 1920, na cidade de Andirá, interior nordestino, onde uma seca rotineira é interrompida por notícias
-                    de um tesouro escondido, espalhadas por um estranho homem pálido. A cidade entra em frenesi ao encontrar uma
-                    misteriosa esfera de bronze. Estranhos acontecimentos começam, e criaturas folclóricas passam a assombrar os cidadãos.
-                    Fabiano e Vitória, místicos e caçadores de artefatos, chegam à cidade para investigar e defender a população.
-                </p>
-                <ul>
-                    <li>Data de lançamento: 01 de Janeiro, 2024</li>
-                    <li>Desenvolvedor: JRocha Studios</li>
-                    <li>Distribuidora: GBarros Produtora</li>
-                    <li>Marcadores populares: Ação, Folclore, Sobrevivência</li>
-                </ul>
-            </div>
-        </div>
-    </section>
+    <!-- Seção de Gameplay -->
+    <div class="gameplay-section">
+        <h2>Gameplay:</h2>
+        <p>Controle Fabiano em sua missão de defender Vitoria por três dias, num jogo inspirado em Vampire Survivors, onde o jogador deve lutar contra hordas de monstros que querem destruí-lo! Fabiano está equipado com sua pistola e facão, que ficam cada vez mais poderosos à medida que o jogador derrota seus inimigos.</p>
+        <img src="video2.gif" alt="Gameplay do jogo">
+    </div>
 
-    <footer>
-        <p>&copy; 2024 JRocha Studios. Todos os direitos reservados.</p>
-    </footer>
+    <!-- Seção de Monstros -->
+    <div class="monsters-section">
+        <h2>Monstros:</h2>
+        <p>O jogador deverá enfrentar criaturas do folclore brasileiro, que foram invocadas do imaginário do povo de Andirá.</p>
+        <img src="video3.gif" alt="Monstros do jogo">
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Papa Figo Survivor. Todos os direitos reservados.</p>
+    </div>
+
 </body>
 </html>

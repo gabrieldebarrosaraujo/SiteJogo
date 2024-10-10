@@ -2,178 +2,118 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
 }
 
 body {
+    font-family: Arial, sans-serif;
     background-color: #1b2838;
     color: #c7d5e0;
+    line-height: 1.6;
 }
 
-header {
+.header {
     background-color: #171a21;
     padding: 20px;
-}
-
-.header-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.logo {
-    height: 60px;
+.header img {
+    height: 50px;
 }
 
-.steam-buttons {
-    display: flex;
-    gap: 10px;
-}
-
-.steam-btn {
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    color: white;
-    border-radius: 3px;
-}
-
-.blue {
-    background-color: #4c6c8b;
-}
-
-.green {
-    background-color: #5c7e10;
-}
-
-nav ul {
-    list-style-type: none;
-    display: flex;
-    gap: 20px;
-    justify-content: center;
-    margin-top: 15px;
-}
-
-nav ul li a {
+.menu a {
     color: #c7d5e0;
     text-decoration: none;
+    margin-left: 20px;
     font-size: 14px;
 }
 
-nav ul li a:hover {
-    color: #ffffff;
-}
-
-.breadcrumb {
-    background-color: #101822;
-    padding: 15px;
-    font-size: 14px;
-    color: #c7d5e0;
-}
-
-.main-content {
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #2a475e;
-    border-radius: 8px;
-}
-
-.game-overview {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-.game-layout {
-    display: flex;
-    gap: 20px;
-}
-
-.game-media {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    flex: 2;
-}
-
-.game-thumbnails {
-    display: flex;
-    gap: 10px;
-}
-
-.game-thumbnails img {
-    width: 100px;
-    height: 80px;
-    object-fit: cover;
-    border-radius: 4px;
-}
-
-.game-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #1b2838;
-    padding: 20px;
-    border-radius: 8px;
-    flex: 1;
-    text-align: center;
-}
-
-.game-card .game-logo {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    margin-bottom: 10px;
-}
-
-.price-btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 20px;
-    background-color: #5c7e10;
-    color: white;
-    font-size: 18px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    gap: 10px;
-}
-
-.price-btn:hover {
-    background-color: #4e6b0e;
-}
-
-.cart-icon {
-    width: 20px;
-    height: 20px;
-}
-
-.game-info {
-    background-color: #1b2838;
-    padding: 20px;
-    border-radius: 8px;
-}
-
-.game-info h2 {
+.menu a:hover {
     color: #66c0f4;
 }
 
-.game-info p {
-    margin: 10px 0;
-    font-size: 16px;
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
 }
 
-footer {
+.trailer iframe {
+    width: 640px;
+    height: 360px;
+    border-radius: 10px;
+}
+
+.game-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+}
+
+.game-logo img {
+    width: 100%;
+    max-width: 280px;
+    border-radius: 10px;
+}
+
+.game-description {
+    background-color: #2a475e;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.price-section {
+    text-align: center;
+    margin: 20px;
+}
+
+.buy-button {
+    background-color: #5c921c;
+    color: #fff;
+    font-size: 18px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.buy-button:hover {
+    background-color: #417015;
+}
+
+.full-history, .gameplay-section, .monsters-section {
+    background-color: #2a475e;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: justify;
+}
+
+.full-history img, .gameplay-section img, .monsters-section img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+h2 {
+    color: #66c0f4;
+    margin-bottom: 10px;
+}
+
+.footer {
     background-color: #171a21;
     text-align: center;
     padding: 20px;
-    margin-top: 30px;
-}
-
-footer p {
+    margin-top: 20px;
     color: #c7d5e0;
-    font-size: 14px;
 }
